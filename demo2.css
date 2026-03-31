@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ .bg-img{
+    padding: 360px 0;
+    background: url("new.jpg");
+   
+}
+.container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+.container p span{
+    color: #00FF00;
+    font-size: 32px;
+}
+.container p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+.container h2{
+    font-size: 40px;
+font-weight: 800;
+    color: #fff;
+}
+.container{position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+z-index: 999;
+width: 770px; 
+text-align: center;
+padding: 60px 32px;
+
+box-shadow: -1px 8px 30px 2px rgba(0,0,0.75);
+}
+.row{
+text-align: left;
+font-size: 28px;
+width: 800px;
+}
+.space{
+   margin-top: 10px;
+}
+.col-lg-12 mt-5{
+text-align: center;
+font-size: 28px;
+}
+.col-md-12 mt-3{
+text-align: center;
+font-size: 50px;
+}
